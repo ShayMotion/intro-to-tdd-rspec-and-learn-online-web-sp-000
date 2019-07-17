@@ -1,3 +1,5 @@
+require ./spec/current_age_for_birth_year_spec.rb
+
 def current_age_for_birth_year(birth_year)
 Time.now.year - birth_year
 end
